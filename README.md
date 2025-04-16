@@ -10,7 +10,7 @@ A Windows Forms-based pharmacy management system built using **.NET 6**, **Entit
 - 💊 Add, Edit, and Delete Medicines
 - 📦 Manage Medicine Stock
 - 🏷️ Categorize Medicines
-- 💰 Display Medicine Prices
+- 💰 Display Medicine Prices, production date, and expiration date
 - 🖥️ Simple and intuitive Windows Forms interface
 - 📂 EF Core Migrations for automatic database setup
 
@@ -33,6 +33,7 @@ A Windows Forms-based pharmacy management system built using **.NET 6**, **Entit
 ```bash
 git clone https://github.com/MrHelwa/Pharmacy_App.git
 cd Pharmacy_App
+```
 ## 2. Open in Visual Studio
 Open the solution file .sln using Visual Studio 2022 or later.
 
@@ -52,3 +53,30 @@ This command will create the database and all required tables using the included
 Set Pharmacy_App as the startup project.
 
 Press F5 or click Start in Visual Studio.
+## 🗂️ Project Structure
+Pharmacy_App/
+│
+├── Migrations/                      # EF Core migration files
+│   ├── InitialMigration.cs
+│   └── Snapshot.cs
+│
+├── Models/                          # Entity models
+│   ├── Medicine.cs
+│   ├── Category.cs
+│   ├── User.cs
+│   └── PharmacyContext.cs
+│
+├── Forms/
+│   ├── Register_Page.cs             # Registration form
+│   ├── LoginForm.cs                 # Login form
+│   ├── MainForm.cs                  # Dashboard
+│   ├── AddNewMedicineForm.cs       # Add/Edit medicine form
+│   └── AddNewCategoryForm.cs       # Add/Edit category form
+│
+├── Program.cs                       # App entry point
+└── README.md                        # Project documentation
+## 📄 License
+This project is licensed under the MIT License – free to use, modify, and distribute.
+## 🙋‍♂️ Author
+Abdulrahman Ibrahim Helwa
+📧 abdohelwa123@gmail.com
