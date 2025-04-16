@@ -26,14 +26,6 @@ A Windows Forms-based pharmacy management system built using **.NET 6**, **Entit
 
 ---
 
-## 📸 Screenshot
-
-![Register Page](https://raw.githubusercontent.com/YourUsername/Pharmacy_App/main/path-to-image/Register_Page.png)
-
-> Replace the image path above with the actual path in your repository (e.g., `assets/Register_Page.png`).
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
