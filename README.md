@@ -54,6 +54,7 @@ Set Pharmacy_App as the startup project.
 
 Press F5 or click Start in Visual Studio.
 ## 🗂️ Project Structure
+```bash
 Pharmacy_App/
 │
 ├── Migrations/                      # EF Core migration files
@@ -75,6 +76,7 @@ Pharmacy_App/
 │
 ├── Program.cs                       # App entry point
 └── README.md                        # Project documentation
+```
 ## 📄 License
 This project is licensed under the MIT License – free to use, modify, and distribute.
 ## 🙋‍♂️ Author
