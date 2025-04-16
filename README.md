@@ -38,7 +38,7 @@ Open the solution file .sln using Visual Studio 2022 or later.
 
 Make sure you have the .NET 6 SDK and SQL Server installed.
 
-## 3. Configure the Connection String
+### 3. Configure the Connection String
 In your appsettings.json or directly in your PharmacyContext.cs, update the connection string to point to your SQL Server instance:
 "ConnectionStrings": {
   "DefaultConnection": "Server=YOUR_SERVER;Database=PharmacyDB;Trusted_Connection=True;"
