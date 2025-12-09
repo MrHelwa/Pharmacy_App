@@ -1,5 +1,5 @@
 # 📦 Pharmacy App
-
+# حاجة على ما قسم.
 A Windows Forms-based pharmacy management system built using **.NET 6**, **Entity Framework Core (Code-First)**, and **SQL Server**. This project allows users to manage medicines, stock, categories, and provides a secure login and registration system.
 
 ---
